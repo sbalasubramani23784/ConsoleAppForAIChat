@@ -5,7 +5,7 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("This is bala. My first AI proram.");
 IChatClient chatClient = new OpenAI.Chat.ChatClient(
        "gpt-4.1-mini",
-       new ApiKeyCredential("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"),
+       new ApiKeyCredential("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"),
        new OpenAI.OpenAIClientOptions { Endpoint = new Uri("https://models.github.ai/inference") }
     ).AsIChatClient();
 
